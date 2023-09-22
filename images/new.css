@@ -1,0 +1,145 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #081b29;
+	color: #edebd9;
+}
+
+/*start of nav*/
+
+#nav-bar{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 1em 10%;
+	background: #081b29;
+	border-bottom: 2px solid #0ef;
+	z-index: 100;
+}
+
+#logo {
+	font-size: 1.5em;
+	color: #edebd9;
+	font-weight: 600;
+}
+
+#navbarNav a {
+	font-size: 1.125em;
+	color: #edebd9;
+	font-weight: 500;
+	margin-left: 1.5px;
+	transition: 0.3s;
+}
+
+#navbarNav a:hover,
+#navbarNav a.active {
+	color: #0ef;
+}
+
+/*end or nav*/
+
+
+
+/*start of proj*/
+
+#projects {
+	padding: 1.25em 10%;
+	height: 100vh;
+
+}
+
+ #web-img img{
+ 	height: 17em;
+ }
+
+ #card-height {
+ 	height: 60px;
+ }
+
+ #card-height a {
+ 	text-decoration: none;
+ 	text-align: center;
+ }
+
+ #projects-bg {
+ 	background: #DEF2F1;
+ 	height: 460px;
+ 	margin-top: 4.5rem;
+ }
+
+
+#projects-bg h1 {
+	color: #17252A;
+	font-weight: 700;
+}
+
+#projects-bg p {
+	color: #2B7A76;
+	font-weight: 700;
+}
+
+
+#carousel-img img{
+	height: 450px;
+}
+
+#car-proj {
+	margin-top: 4.5rem;
+	margin-bottom: auto;
+	margin-left: 50px;
+}
+
+.carousel {
+	width: 620px;
+}
+
+#contact-container {
+	background: transparent;
+	border-radius: 20px;
+	border: 5px solid #0ef;
+	color: #edebd9;
+}
+
+#contact-container label {
+	font-weight: 700;
+	font-size: 1.2em;
+	padding: .2em 1em;
+}
+
+#contacts {
+	margin-top: 100px;
+}
+
+#contact-container input {
+	padding: 1.5em;
+}
+
+
+#contact-map {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 300px;
+	margin-left: 0px;
+}
+
+form a {
+	display: flex;
+	align-items: center;
+}
+
+/*
+#contact-map h1 {
+	color: #17252A;
+	font-weight: 700;
+}
+
+#contact-map p {
+	color: #2B7A76;
+	font-weight: 700;
+}
+*/
